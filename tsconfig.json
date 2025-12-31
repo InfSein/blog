@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "useDefineForClassFields": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "declaration": false,
+    "baseUrl": "./",
+    "paths": {
+      "@theme/*": [
+        ".vitepress/theme/*"
+      ],
+      "@utils/*": [
+        ".vitepress/utils/*"
+      ]
+    }
+  },
+  "include": [
+    ".vitepress/**/*.d.ts",
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.vue",
+    "docs/**/*.ts",
+    "docs/**/*.vue"
+  ]
+}
